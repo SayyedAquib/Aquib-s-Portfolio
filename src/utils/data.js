@@ -1,6 +1,7 @@
 import MegaBlogsImage from "../assets/MegaBlogs.png";
 import URLShortenerImage from "../assets/URLShortener.png";
 import YouTubeImage from "../assets/YouTube.png";
+import Climate from "../assets/Climate.png"
 
 export const SKILLS = [
   "React",
@@ -72,6 +73,20 @@ export const PROJECTS = [
     ],
     liveLink: "https://aquibs-video-streaming-platform.netlify.app/",
     sourceCode: "https://github.com/SayyedAquib/video-streaming-platform",
+  },
+  {
+    title: "Climate",
+    description:
+      "Developed a climate web app featuring current weather and forecasts, a 24-hour temperature graph, and a global city search. It utilizes Tanstack Query for search history and favorites. The app supports light and dark modes and has a fully responsive UI built with React and Shadcn UI.",
+    image: Climate,
+    bullets: [
+      "Implemented geolocation functionality to automatically retrieve and display local weather data, allowing users to quickly access relevant information based on their current location.",
+      "Integrated a city search feature that enables users to find weather information for specific cities, leveraging a user-friendly command interface for quick access to search history and favorite cities.",
+      "I used TanStack Query to implement features like search history and adding cities to favorites through mutations."
+      "Utilized React, TypeScript, Shadcn/UI, and Tailwind CSS to create a modern, visually appealing user interface, ensuring a seamless experience across desktop and mobile devices.",
+    ],
+    liveLink: "https://aquibs-climate.netlify.app/",
+    sourceCode: "https://github.com/SayyedAquib/Climate",
   },
 ];
 
