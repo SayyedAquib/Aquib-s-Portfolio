@@ -82,7 +82,7 @@ export const PROJECTS = [
     bullets: [
       "Implemented geolocation functionality to automatically retrieve and display local weather data, allowing users to quickly access relevant information based on their current location.",
       "Integrated a city search feature that enables users to find weather information for specific cities, leveraging a user-friendly command interface for quick access to search history and favorite cities.",
-      "I used TanStack Query to implement features like search history and adding cities to favorites through mutations."
+      "I used TanStack Query to implement features like search history and adding cities to favorites through mutations.",
       "Utilized React, TypeScript, Shadcn/UI, and Tailwind CSS to create a modern, visually appealing user interface, ensuring a seamless experience across desktop and mobile devices.",
     ],
     liveLink: "https://aquibs-climate.netlify.app/",
