@@ -1,7 +1,11 @@
 import MegaBlogsImage from "../assets/MegaBlogs.png";
 import URLShortenerImage from "../assets/URLShortener.png";
 import YouTubeImage from "../assets/YouTube.png";
+<<<<<<< HEAD
 import Climate from "../assets/Climate.png";
+=======
+import Climate from "../assets/Climate.png"
+>>>>>>> 47850db078c7e904819f054ebb284a4596cfb000
 
 export const SKILLS = [
   "React",
@@ -85,7 +89,11 @@ export const PROJECTS = [
       "I used TanStack Query to implement features like search history and adding cities to favorites through mutations.",
       "Utilized React, TypeScript, Shadcn/UI, and Tailwind CSS to create a modern, visually appealing user interface, ensuring a seamless experience across desktop and mobile devices.",
     ],
+<<<<<<< HEAD
     liveLink: "https://aquib-s-climate.vercel.app/",
+=======
+    liveLink: "https://aquibs-climate.netlify.app/",
+>>>>>>> 47850db078c7e904819f054ebb284a4596cfb000
     sourceCode: "https://github.com/SayyedAquib/Climate",
   },
 ];
