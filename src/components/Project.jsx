@@ -37,7 +37,7 @@ const Project = ({ projectsRef }) => {
                   alt={project.title}
                   width={300}
                   height={200}
-                  className="object-fit w-full h-[200px] rounded-lg"
+                  className="object-fit w-full h-[200px]  mb-2 rounded-lg"
                 />
                 <CardTitle className="mt-4 text-white">
                   {project.title}
