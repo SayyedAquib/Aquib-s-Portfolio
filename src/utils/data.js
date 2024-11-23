@@ -89,11 +89,7 @@ export const PROJECTS = [
       "I used TanStack Query to implement features like search history and adding cities to favorites through mutations.",
       "Utilized React, TypeScript, Shadcn/UI, and Tailwind CSS to create a modern, visually appealing user interface, ensuring a seamless experience across desktop and mobile devices.",
     ],
-<<<<<<< HEAD
     liveLink: "https://aquib-s-climate.vercel.app/",
-=======
-    liveLink: "https://aquibs-climate.netlify.app/",
->>>>>>> 47850db078c7e904819f054ebb284a4596cfb000
     sourceCode: "https://github.com/SayyedAquib/Climate",
   },
 ];
