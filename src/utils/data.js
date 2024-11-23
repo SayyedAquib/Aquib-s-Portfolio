@@ -1,11 +1,7 @@
 import MegaBlogsImage from "../assets/MegaBlogs.png";
 import URLShortenerImage from "../assets/URLShortener.png";
 import YouTubeImage from "../assets/YouTube.png";
-<<<<<<< HEAD
 import Climate from "../assets/Climate.png";
-=======
-import Climate from "../assets/Climate.png"
->>>>>>> 47850db078c7e904819f054ebb284a4596cfb000
 
 export const SKILLS = [
   "React",
