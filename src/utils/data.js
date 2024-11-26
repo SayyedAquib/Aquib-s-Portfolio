@@ -2,6 +2,7 @@ import MegaBlogsImage from "../assets/MegaBlogs.png";
 import URLShortenerImage from "../assets/URLShortener.png";
 import YouTubeImage from "../assets/YouTube.png";
 import Climate from "../assets/Climate.png";
+import FoodFinder from "../assets/FoodFinder.png";
 
 export const SKILLS = [
   "React",
@@ -77,7 +78,7 @@ export const PROJECTS = [
   {
     title: "Climate",
     description:
-      "Developed a climate web app featuring current weather and forecasts, a 24-hour temperature graph, and a global city search. It utilizes Tanstack Query for search history and favorites. The app supports light and dark modes and has a fully responsive UI built with React and Shadcn UI.",
+      "Developed a climate web app featuring current weather and forecasts, a 24-hour temperature graph, and a global city search. Utilized Tanstack Query for search history and favorites. The app supports light and dark modes and has a fully responsive UI built with React and Shadcn/ui.",
     image: Climate,
     bullets: [
       "Implemented geolocation functionality to automatically retrieve and display local weather data, allowing users to quickly access relevant information based on their current location.",
@@ -87,6 +88,20 @@ export const PROJECTS = [
     ],
     liveLink: "https://aquib-s-climate.vercel.app/",
     sourceCode: "https://github.com/SayyedAquib/Climate",
+  },
+  {
+    title: "Food Finder",
+    description:
+      "Developed a food delivery web application that allows users to browse a variety of restaurants, view detailed menus, and place orders online. The app features user authentication via Google Sign-In using Firebase and is built with React, Redux, and Tailwind CSS for a responsive design.",
+    image: FoodFinder,
+    bullets: [
+      "Implemented a search functionality that enables users to quickly find restaurants and dishes, providing suggestions as they type for an enhanced user experience.",
+      "Integrated cart management features, allowing users to add, remove, and manage items in their cart, with real-time updates reflecting changes in the total price.",
+      "Utilized Redux for state management to efficiently handle user authentication, cart data, and UI toggles, ensuring smooth interactions and data flow throughout the application.",
+      "Leveraged Swiggy live APIs to fetch dynamic restaurant and menu data, ensuring users have access to the latest offerings and promotions while handling errors gracefully.",
+    ],
+    liveLink: "https://aquibs-food-finder.vercel.app/",
+    sourceCode: "https://github.com/SayyedAquib/Food-Finder",
   },
 ];
 
@@ -107,10 +122,10 @@ export const EXPERIENCE = [
   },
 ];
 
-export const HEADING = "Aquib's Portfolio"
+export const HEADING = "Aquib's Portfolio";
 
-export const RESUME_LINK = "https://drive.google.com/drive/folders/1V1xBWhXpqZZPutq4LCoZ5gklH2TtzfTx?usp=sharing"
-
+export const RESUME_LINK =
+  "https://drive.google.com/drive/folders/1V1xBWhXpqZZPutq4LCoZ5gklH2TtzfTx?usp=sharing";
 
 export const ABOUT = {
   title: "About Me",
