@@ -122,7 +122,7 @@ export const EXPERIENCE = [
   },
 ];
 
-export const HEADING = "Aquib's Portfolio";
+export const HEADING = "<Aquib's Portfolio />";
 
 export const RESUME_LINK =
   "https://drive.google.com/drive/folders/1V1xBWhXpqZZPutq4LCoZ5gklH2TtzfTx?usp=sharing";
@@ -131,7 +131,7 @@ export const ABOUT = {
   title: "About Me",
   introduction: [
     "Hi, I'm Aquib Sayyed, a passionate Frontend Developer with a B.Tech in Computer Science from SSGB COET, Bhusawal. I specialize in building user-friendly, efficient, and visually appealing web applications using modern technologies like React.js, Redux Toolkit, Tailwind CSS, and more.",
-    "I have 1.5 years of professional experience at Zensar Technologies, where I contributed to developing scalable interfaces for enterprise applications. Currently, I'm exploring exciting opportunities to create impactful digital experiences.",
+    "I have almost 1.5 years of professional experience at Zensar Technologies, where I contributed to developing scalable interfaces for enterprise applications. Currently, I'm exploring exciting opportunities to create impactful digital experiences.",
   ],
   whatIDo: {
     title: "What I Do:",

@@ -54,7 +54,7 @@ export default function Portfolio() {
               onClick={() => scrollToSection(heroRef)}
               className="flex items-center space-x-2 cursor-pointer text-indigo-700"
             >
-              <span className="hidden font-bold text-2xl sm:inline-block">
+              <span className="hidden font-bold text-3xl sm:inline-block   ">
                 {HEADING}
               </span>
             </p>
